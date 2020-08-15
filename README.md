@@ -44,6 +44,7 @@ Total time:                  3.48s
 
 To try it out, just run `yarn patch-package` to apply the patch to the AWS-SDK itself.
 
+```
 ➜  aws-sdk-deep-imports git:(master) ✗ yarn tsc --extendedDiagnostics
 yarn run v1.22.4
 $ /Users/jakeginnivan/_code/aws-sdk-deep-imports/node_modules/.bin/tsc --extendedDiagnostics
@@ -73,6 +74,7 @@ printTime time:             0.01s
 Emit time:                  0.01s
 Total time:                 0.63s
 ✨  Done in 0.97s.
+```
 
 ## Testing
 
