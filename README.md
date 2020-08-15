@@ -2,6 +2,8 @@
 
 The AWS JS SDK pulls in a lot of type definitions, this is because deep imports transitively pull in all other service clients.
 
+tl;dr, the patch reduces build time on a project which just imports the S3 client from ~3.5 seconds to ~0.6 seconds on my laptop
+
 ## Performance
 
 This is not extensive testing, but on my 16" MacBook Pro I get this
