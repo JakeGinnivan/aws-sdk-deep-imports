@@ -1,0 +1,13 @@
+{
+  "name": "aws-sdk-deep-imports",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:JakeGinnivan/aws-sdk-deep-imports.git",
+  "author": "Jake Ginnivan <jake@ginnivan.net>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "2.733.0",
+    "patch-package": "^6.2.2",
+    "typescript": "^3.9.7"
+  }
+}

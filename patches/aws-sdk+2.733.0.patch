@@ -1,0 +1,3527 @@
+diff --git a/node_modules/aws-sdk/clients/accessanalyzer.d.ts b/node_modules/aws-sdk/clients/accessanalyzer.d.ts
+index c55adef..929e2e4 100644
+--- a/node_modules/aws-sdk/clients/accessanalyzer.d.ts
++++ b/node_modules/aws-sdk/clients/accessanalyzer.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class AccessAnalyzer extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/acm.d.ts b/node_modules/aws-sdk/clients/acm.d.ts
+index 71fa974..3228aa4 100644
+--- a/node_modules/aws-sdk/clients/acm.d.ts
++++ b/node_modules/aws-sdk/clients/acm.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ACM extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/acmpca.d.ts b/node_modules/aws-sdk/clients/acmpca.d.ts
+index d16cb18..f26bcef 100644
+--- a/node_modules/aws-sdk/clients/acmpca.d.ts
++++ b/node_modules/aws-sdk/clients/acmpca.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ACMPCA extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/alexaforbusiness.d.ts b/node_modules/aws-sdk/clients/alexaforbusiness.d.ts
+index 0653b09..bdc47b6 100644
+--- a/node_modules/aws-sdk/clients/alexaforbusiness.d.ts
++++ b/node_modules/aws-sdk/clients/alexaforbusiness.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class AlexaForBusiness extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/amplify.d.ts b/node_modules/aws-sdk/clients/amplify.d.ts
+index 12f08aa..a01e667 100644
+--- a/node_modules/aws-sdk/clients/amplify.d.ts
++++ b/node_modules/aws-sdk/clients/amplify.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Amplify extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/apigateway.d.ts b/node_modules/aws-sdk/clients/apigateway.d.ts
+index 6a5e3c6..36d8b59 100644
+--- a/node_modules/aws-sdk/clients/apigateway.d.ts
++++ b/node_modules/aws-sdk/clients/apigateway.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class APIGateway extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/apigatewaymanagementapi.d.ts b/node_modules/aws-sdk/clients/apigatewaymanagementapi.d.ts
+index e4afc93..b013b4f 100644
+--- a/node_modules/aws-sdk/clients/apigatewaymanagementapi.d.ts
++++ b/node_modules/aws-sdk/clients/apigatewaymanagementapi.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ApiGatewayManagementApi extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/apigatewayv2.d.ts b/node_modules/aws-sdk/clients/apigatewayv2.d.ts
+index 9dd732c..f965a00 100644
+--- a/node_modules/aws-sdk/clients/apigatewayv2.d.ts
++++ b/node_modules/aws-sdk/clients/apigatewayv2.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ApiGatewayV2 extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/appconfig.d.ts b/node_modules/aws-sdk/clients/appconfig.d.ts
+index 2faf1a7..eabc976 100644
+--- a/node_modules/aws-sdk/clients/appconfig.d.ts
++++ b/node_modules/aws-sdk/clients/appconfig.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class AppConfig extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/applicationautoscaling.d.ts b/node_modules/aws-sdk/clients/applicationautoscaling.d.ts
+index d53c57d..1b0d25b 100644
+--- a/node_modules/aws-sdk/clients/applicationautoscaling.d.ts
++++ b/node_modules/aws-sdk/clients/applicationautoscaling.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ApplicationAutoScaling extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/applicationinsights.d.ts b/node_modules/aws-sdk/clients/applicationinsights.d.ts
+index f444056..db58725 100644
+--- a/node_modules/aws-sdk/clients/applicationinsights.d.ts
++++ b/node_modules/aws-sdk/clients/applicationinsights.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ApplicationInsights extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/appmesh.d.ts b/node_modules/aws-sdk/clients/appmesh.d.ts
+index e8effd4..60b6482 100644
+--- a/node_modules/aws-sdk/clients/appmesh.d.ts
++++ b/node_modules/aws-sdk/clients/appmesh.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class AppMesh extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/appstream.d.ts b/node_modules/aws-sdk/clients/appstream.d.ts
+index dd4b774..80f5231 100644
+--- a/node_modules/aws-sdk/clients/appstream.d.ts
++++ b/node_modules/aws-sdk/clients/appstream.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class AppStream extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/appsync.d.ts b/node_modules/aws-sdk/clients/appsync.d.ts
+index 0175732..9b46f80 100644
+--- a/node_modules/aws-sdk/clients/appsync.d.ts
++++ b/node_modules/aws-sdk/clients/appsync.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class AppSync extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/athena.d.ts b/node_modules/aws-sdk/clients/athena.d.ts
+index 2c52923..9b1c601 100644
+--- a/node_modules/aws-sdk/clients/athena.d.ts
++++ b/node_modules/aws-sdk/clients/athena.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Athena extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/augmentedairuntime.d.ts b/node_modules/aws-sdk/clients/augmentedairuntime.d.ts
+index 669ef89..6d50d4b 100644
+--- a/node_modules/aws-sdk/clients/augmentedairuntime.d.ts
++++ b/node_modules/aws-sdk/clients/augmentedairuntime.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class AugmentedAIRuntime extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/autoscaling.d.ts b/node_modules/aws-sdk/clients/autoscaling.d.ts
+index 9e52bfe..5e18597 100644
+--- a/node_modules/aws-sdk/clients/autoscaling.d.ts
++++ b/node_modules/aws-sdk/clients/autoscaling.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class AutoScaling extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/autoscalingplans.d.ts b/node_modules/aws-sdk/clients/autoscalingplans.d.ts
+index 0a8d072..8fa0d0d 100644
+--- a/node_modules/aws-sdk/clients/autoscalingplans.d.ts
++++ b/node_modules/aws-sdk/clients/autoscalingplans.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class AutoScalingPlans extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/backup.d.ts b/node_modules/aws-sdk/clients/backup.d.ts
+index 3cf6a11..8917717 100644
+--- a/node_modules/aws-sdk/clients/backup.d.ts
++++ b/node_modules/aws-sdk/clients/backup.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Backup extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/batch.d.ts b/node_modules/aws-sdk/clients/batch.d.ts
+index 9546976..7515c65 100644
+--- a/node_modules/aws-sdk/clients/batch.d.ts
++++ b/node_modules/aws-sdk/clients/batch.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Batch extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/braket.d.ts b/node_modules/aws-sdk/clients/braket.d.ts
+index df005e5..c0b8a15 100644
+--- a/node_modules/aws-sdk/clients/braket.d.ts
++++ b/node_modules/aws-sdk/clients/braket.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Braket extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/budgets.d.ts b/node_modules/aws-sdk/clients/budgets.d.ts
+index 0a4535b..6cd016b 100644
+--- a/node_modules/aws-sdk/clients/budgets.d.ts
++++ b/node_modules/aws-sdk/clients/budgets.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Budgets extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/chime.d.ts b/node_modules/aws-sdk/clients/chime.d.ts
+index efbce38..908ebc9 100644
+--- a/node_modules/aws-sdk/clients/chime.d.ts
++++ b/node_modules/aws-sdk/clients/chime.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Chime extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/cloud9.d.ts b/node_modules/aws-sdk/clients/cloud9.d.ts
+index ef39ced..0e739dd 100644
+--- a/node_modules/aws-sdk/clients/cloud9.d.ts
++++ b/node_modules/aws-sdk/clients/cloud9.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Cloud9 extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/clouddirectory.d.ts b/node_modules/aws-sdk/clients/clouddirectory.d.ts
+index 14313f8..f202436 100644
+--- a/node_modules/aws-sdk/clients/clouddirectory.d.ts
++++ b/node_modules/aws-sdk/clients/clouddirectory.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CloudDirectory extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/cloudformation.d.ts b/node_modules/aws-sdk/clients/cloudformation.d.ts
+index c40095d..55c857c 100644
+--- a/node_modules/aws-sdk/clients/cloudformation.d.ts
++++ b/node_modules/aws-sdk/clients/cloudformation.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CloudFormation extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/cloudfront.d.ts b/node_modules/aws-sdk/clients/cloudfront.d.ts
+index c2ded5f..c006577 100644
+--- a/node_modules/aws-sdk/clients/cloudfront.d.ts
++++ b/node_modules/aws-sdk/clients/cloudfront.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {CloudFrontCustomizations} from '../lib/services/cloudfront';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ import {Signer as signer} from '../lib/cloudfront/signer';
+ interface Blob {}
+ declare class CloudFront extends CloudFrontCustomizations {
+diff --git a/node_modules/aws-sdk/clients/cloudhsm.d.ts b/node_modules/aws-sdk/clients/cloudhsm.d.ts
+index a280c7d..9c5e7cf 100644
+--- a/node_modules/aws-sdk/clients/cloudhsm.d.ts
++++ b/node_modules/aws-sdk/clients/cloudhsm.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CloudHSM extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/cloudhsmv2.d.ts b/node_modules/aws-sdk/clients/cloudhsmv2.d.ts
+index bf66596..f70971f 100644
+--- a/node_modules/aws-sdk/clients/cloudhsmv2.d.ts
++++ b/node_modules/aws-sdk/clients/cloudhsmv2.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CloudHSMV2 extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/cloudsearch.d.ts b/node_modules/aws-sdk/clients/cloudsearch.d.ts
+index 0f5b221..5a74cb5 100644
+--- a/node_modules/aws-sdk/clients/cloudsearch.d.ts
++++ b/node_modules/aws-sdk/clients/cloudsearch.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CloudSearch extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/cloudsearchdomain.d.ts b/node_modules/aws-sdk/clients/cloudsearchdomain.d.ts
+index d673549..45e3e37 100644
+--- a/node_modules/aws-sdk/clients/cloudsearchdomain.d.ts
++++ b/node_modules/aws-sdk/clients/cloudsearchdomain.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ import {Readable} from 'stream';
+ interface Blob {}
+ declare class CloudSearchDomain extends Service {
+diff --git a/node_modules/aws-sdk/clients/cloudtrail.d.ts b/node_modules/aws-sdk/clients/cloudtrail.d.ts
+index e4ebd74..7328fc4 100644
+--- a/node_modules/aws-sdk/clients/cloudtrail.d.ts
++++ b/node_modules/aws-sdk/clients/cloudtrail.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CloudTrail extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/cloudwatch.d.ts b/node_modules/aws-sdk/clients/cloudwatch.d.ts
+index c2799b1..af809a1 100644
+--- a/node_modules/aws-sdk/clients/cloudwatch.d.ts
++++ b/node_modules/aws-sdk/clients/cloudwatch.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CloudWatch extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/cloudwatchevents.d.ts b/node_modules/aws-sdk/clients/cloudwatchevents.d.ts
+index 2ae5cdf..a7eef6a 100644
+--- a/node_modules/aws-sdk/clients/cloudwatchevents.d.ts
++++ b/node_modules/aws-sdk/clients/cloudwatchevents.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CloudWatchEvents extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/cloudwatchlogs.d.ts b/node_modules/aws-sdk/clients/cloudwatchlogs.d.ts
+index 0b8f699..dfd6f9e 100644
+--- a/node_modules/aws-sdk/clients/cloudwatchlogs.d.ts
++++ b/node_modules/aws-sdk/clients/cloudwatchlogs.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CloudWatchLogs extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/codeartifact.d.ts b/node_modules/aws-sdk/clients/codeartifact.d.ts
+index bbe88e2..84fec8c 100644
+--- a/node_modules/aws-sdk/clients/codeartifact.d.ts
++++ b/node_modules/aws-sdk/clients/codeartifact.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ import {Readable} from 'stream';
+ interface Blob {}
+ declare class CodeArtifact extends Service {
+diff --git a/node_modules/aws-sdk/clients/codebuild.d.ts b/node_modules/aws-sdk/clients/codebuild.d.ts
+index 7f953c0..d950276 100644
+--- a/node_modules/aws-sdk/clients/codebuild.d.ts
++++ b/node_modules/aws-sdk/clients/codebuild.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CodeBuild extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/codecommit.d.ts b/node_modules/aws-sdk/clients/codecommit.d.ts
+index b9931f1..50d02dd 100644
+--- a/node_modules/aws-sdk/clients/codecommit.d.ts
++++ b/node_modules/aws-sdk/clients/codecommit.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CodeCommit extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/codedeploy.d.ts b/node_modules/aws-sdk/clients/codedeploy.d.ts
+index b32545e..1f62dfa 100644
+--- a/node_modules/aws-sdk/clients/codedeploy.d.ts
++++ b/node_modules/aws-sdk/clients/codedeploy.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CodeDeploy extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/codeguruprofiler.d.ts b/node_modules/aws-sdk/clients/codeguruprofiler.d.ts
+index 310b61b..dd9149d 100644
+--- a/node_modules/aws-sdk/clients/codeguruprofiler.d.ts
++++ b/node_modules/aws-sdk/clients/codeguruprofiler.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CodeGuruProfiler extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/codegurureviewer.d.ts b/node_modules/aws-sdk/clients/codegurureviewer.d.ts
+index a95ebc9..0d7b608 100644
+--- a/node_modules/aws-sdk/clients/codegurureviewer.d.ts
++++ b/node_modules/aws-sdk/clients/codegurureviewer.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CodeGuruReviewer extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/codepipeline.d.ts b/node_modules/aws-sdk/clients/codepipeline.d.ts
+index 37e4906..6b6e138 100644
+--- a/node_modules/aws-sdk/clients/codepipeline.d.ts
++++ b/node_modules/aws-sdk/clients/codepipeline.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CodePipeline extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/codestar.d.ts b/node_modules/aws-sdk/clients/codestar.d.ts
+index 2f5e16a..4b9cc89 100644
+--- a/node_modules/aws-sdk/clients/codestar.d.ts
++++ b/node_modules/aws-sdk/clients/codestar.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CodeStar extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/codestarconnections.d.ts b/node_modules/aws-sdk/clients/codestarconnections.d.ts
+index 34748e2..799d7ab 100644
+--- a/node_modules/aws-sdk/clients/codestarconnections.d.ts
++++ b/node_modules/aws-sdk/clients/codestarconnections.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CodeStarconnections extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/codestarnotifications.d.ts b/node_modules/aws-sdk/clients/codestarnotifications.d.ts
+index 1af3fde..c597ed0 100644
+--- a/node_modules/aws-sdk/clients/codestarnotifications.d.ts
++++ b/node_modules/aws-sdk/clients/codestarnotifications.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CodeStarNotifications extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/cognitoidentity.d.ts b/node_modules/aws-sdk/clients/cognitoidentity.d.ts
+index f954076..9d1e309 100644
+--- a/node_modules/aws-sdk/clients/cognitoidentity.d.ts
++++ b/node_modules/aws-sdk/clients/cognitoidentity.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CognitoIdentity extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/cognitoidentityserviceprovider.d.ts b/node_modules/aws-sdk/clients/cognitoidentityserviceprovider.d.ts
+index 008ea66..4d5b938 100644
+--- a/node_modules/aws-sdk/clients/cognitoidentityserviceprovider.d.ts
++++ b/node_modules/aws-sdk/clients/cognitoidentityserviceprovider.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CognitoIdentityServiceProvider extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/cognitosync.d.ts b/node_modules/aws-sdk/clients/cognitosync.d.ts
+index 18acb27..2f9fcb6 100644
+--- a/node_modules/aws-sdk/clients/cognitosync.d.ts
++++ b/node_modules/aws-sdk/clients/cognitosync.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CognitoSync extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/comprehend.d.ts b/node_modules/aws-sdk/clients/comprehend.d.ts
+index 0ed8b4f..e1f022f 100644
+--- a/node_modules/aws-sdk/clients/comprehend.d.ts
++++ b/node_modules/aws-sdk/clients/comprehend.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Comprehend extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/comprehendmedical.d.ts b/node_modules/aws-sdk/clients/comprehendmedical.d.ts
+index 8d9a0c1..382c8d0 100644
+--- a/node_modules/aws-sdk/clients/comprehendmedical.d.ts
++++ b/node_modules/aws-sdk/clients/comprehendmedical.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ComprehendMedical extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/computeoptimizer.d.ts b/node_modules/aws-sdk/clients/computeoptimizer.d.ts
+index 7d76270..a06c475 100644
+--- a/node_modules/aws-sdk/clients/computeoptimizer.d.ts
++++ b/node_modules/aws-sdk/clients/computeoptimizer.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ComputeOptimizer extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/configservice.d.ts b/node_modules/aws-sdk/clients/configservice.d.ts
+index d607cc9..3ff5b59 100644
+--- a/node_modules/aws-sdk/clients/configservice.d.ts
++++ b/node_modules/aws-sdk/clients/configservice.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ConfigService extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/connect.d.ts b/node_modules/aws-sdk/clients/connect.d.ts
+index c855af4..8f63b18 100644
+--- a/node_modules/aws-sdk/clients/connect.d.ts
++++ b/node_modules/aws-sdk/clients/connect.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Connect extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/connectparticipant.d.ts b/node_modules/aws-sdk/clients/connectparticipant.d.ts
+index 6bf906c..06b4b9c 100644
+--- a/node_modules/aws-sdk/clients/connectparticipant.d.ts
++++ b/node_modules/aws-sdk/clients/connectparticipant.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ConnectParticipant extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/costexplorer.d.ts b/node_modules/aws-sdk/clients/costexplorer.d.ts
+index 5041aff..b2a9934 100644
+--- a/node_modules/aws-sdk/clients/costexplorer.d.ts
++++ b/node_modules/aws-sdk/clients/costexplorer.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CostExplorer extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/cur.d.ts b/node_modules/aws-sdk/clients/cur.d.ts
+index 92bc9cd..3541e8b 100644
+--- a/node_modules/aws-sdk/clients/cur.d.ts
++++ b/node_modules/aws-sdk/clients/cur.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class CUR extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/dataexchange.d.ts b/node_modules/aws-sdk/clients/dataexchange.d.ts
+index 32fb5ef..199e416 100644
+--- a/node_modules/aws-sdk/clients/dataexchange.d.ts
++++ b/node_modules/aws-sdk/clients/dataexchange.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class DataExchange extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/datapipeline.d.ts b/node_modules/aws-sdk/clients/datapipeline.d.ts
+index 6ebdfcc..8c74db0 100644
+--- a/node_modules/aws-sdk/clients/datapipeline.d.ts
++++ b/node_modules/aws-sdk/clients/datapipeline.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class DataPipeline extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/datasync.d.ts b/node_modules/aws-sdk/clients/datasync.d.ts
+index 3b16e6c..ea4b20e 100644
+--- a/node_modules/aws-sdk/clients/datasync.d.ts
++++ b/node_modules/aws-sdk/clients/datasync.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class DataSync extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/dax.d.ts b/node_modules/aws-sdk/clients/dax.d.ts
+index 3b4bb78..fc27116 100644
+--- a/node_modules/aws-sdk/clients/dax.d.ts
++++ b/node_modules/aws-sdk/clients/dax.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class DAX extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/detective.d.ts b/node_modules/aws-sdk/clients/detective.d.ts
+index 258305f..f8d2fde 100644
+--- a/node_modules/aws-sdk/clients/detective.d.ts
++++ b/node_modules/aws-sdk/clients/detective.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Detective extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/devicefarm.d.ts b/node_modules/aws-sdk/clients/devicefarm.d.ts
+index 4a9c89e..7a9ea2d 100644
+--- a/node_modules/aws-sdk/clients/devicefarm.d.ts
++++ b/node_modules/aws-sdk/clients/devicefarm.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class DeviceFarm extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/directconnect.d.ts b/node_modules/aws-sdk/clients/directconnect.d.ts
+index 8069118..51f3c45 100644
+--- a/node_modules/aws-sdk/clients/directconnect.d.ts
++++ b/node_modules/aws-sdk/clients/directconnect.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class DirectConnect extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/directoryservice.d.ts b/node_modules/aws-sdk/clients/directoryservice.d.ts
+index e8513f1..0d49e81 100644
+--- a/node_modules/aws-sdk/clients/directoryservice.d.ts
++++ b/node_modules/aws-sdk/clients/directoryservice.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class DirectoryService extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/discovery.d.ts b/node_modules/aws-sdk/clients/discovery.d.ts
+index ce7db19..4c6825c 100644
+--- a/node_modules/aws-sdk/clients/discovery.d.ts
++++ b/node_modules/aws-sdk/clients/discovery.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Discovery extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/dlm.d.ts b/node_modules/aws-sdk/clients/dlm.d.ts
+index 021a382..d5575ad 100644
+--- a/node_modules/aws-sdk/clients/dlm.d.ts
++++ b/node_modules/aws-sdk/clients/dlm.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class DLM extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/dms.d.ts b/node_modules/aws-sdk/clients/dms.d.ts
+index ab91268..87c6abf 100644
+--- a/node_modules/aws-sdk/clients/dms.d.ts
++++ b/node_modules/aws-sdk/clients/dms.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class DMS extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/docdb.d.ts b/node_modules/aws-sdk/clients/docdb.d.ts
+index 5944ea0..61ace92 100644
+--- a/node_modules/aws-sdk/clients/docdb.d.ts
++++ b/node_modules/aws-sdk/clients/docdb.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class DocDB extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/dynamodb.d.ts b/node_modules/aws-sdk/clients/dynamodb.d.ts
+index 1fdf3d4..995ff77 100644
+--- a/node_modules/aws-sdk/clients/dynamodb.d.ts
++++ b/node_modules/aws-sdk/clients/dynamodb.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {DynamoDBCustomizations} from '../lib/services/dynamodb';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ import {DocumentClient as document_client} from '../lib/dynamodb/document_client';
+ import {Converter as converter} from '../lib/dynamodb/converter';
+ interface Blob {}
+diff --git a/node_modules/aws-sdk/clients/dynamodbstreams.d.ts b/node_modules/aws-sdk/clients/dynamodbstreams.d.ts
+index 0f2079a..b33a99b 100644
+--- a/node_modules/aws-sdk/clients/dynamodbstreams.d.ts
++++ b/node_modules/aws-sdk/clients/dynamodbstreams.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class DynamoDBStreams extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/ebs.d.ts b/node_modules/aws-sdk/clients/ebs.d.ts
+index b04982d..0338603 100644
+--- a/node_modules/aws-sdk/clients/ebs.d.ts
++++ b/node_modules/aws-sdk/clients/ebs.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ import {Readable} from 'stream';
+ interface Blob {}
+ declare class EBS extends Service {
+diff --git a/node_modules/aws-sdk/clients/ec2.d.ts b/node_modules/aws-sdk/clients/ec2.d.ts
+index 09bc10f..a75b6b0 100644
+--- a/node_modules/aws-sdk/clients/ec2.d.ts
++++ b/node_modules/aws-sdk/clients/ec2.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class EC2 extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/ec2instanceconnect.d.ts b/node_modules/aws-sdk/clients/ec2instanceconnect.d.ts
+index 2f60b7a..4ce73ae 100644
+--- a/node_modules/aws-sdk/clients/ec2instanceconnect.d.ts
++++ b/node_modules/aws-sdk/clients/ec2instanceconnect.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class EC2InstanceConnect extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/ecr.d.ts b/node_modules/aws-sdk/clients/ecr.d.ts
+index fb4484f..c5c9256 100644
+--- a/node_modules/aws-sdk/clients/ecr.d.ts
++++ b/node_modules/aws-sdk/clients/ecr.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ECR extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/ecs.d.ts b/node_modules/aws-sdk/clients/ecs.d.ts
+index 42894f6..75cac73 100644
+--- a/node_modules/aws-sdk/clients/ecs.d.ts
++++ b/node_modules/aws-sdk/clients/ecs.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ECS extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/efs.d.ts b/node_modules/aws-sdk/clients/efs.d.ts
+index f9bf0e1..453dc9a 100644
+--- a/node_modules/aws-sdk/clients/efs.d.ts
++++ b/node_modules/aws-sdk/clients/efs.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class EFS extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/eks.d.ts b/node_modules/aws-sdk/clients/eks.d.ts
+index 1ad74ea..648b377 100644
+--- a/node_modules/aws-sdk/clients/eks.d.ts
++++ b/node_modules/aws-sdk/clients/eks.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class EKS extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/elasticache.d.ts b/node_modules/aws-sdk/clients/elasticache.d.ts
+index 89a815c..c6347a1 100644
+--- a/node_modules/aws-sdk/clients/elasticache.d.ts
++++ b/node_modules/aws-sdk/clients/elasticache.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ElastiCache extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/elasticbeanstalk.d.ts b/node_modules/aws-sdk/clients/elasticbeanstalk.d.ts
+index 4811434..5afb0b8 100644
+--- a/node_modules/aws-sdk/clients/elasticbeanstalk.d.ts
++++ b/node_modules/aws-sdk/clients/elasticbeanstalk.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ElasticBeanstalk extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/elasticinference.d.ts b/node_modules/aws-sdk/clients/elasticinference.d.ts
+index 970e429..18e1701 100644
+--- a/node_modules/aws-sdk/clients/elasticinference.d.ts
++++ b/node_modules/aws-sdk/clients/elasticinference.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ElasticInference extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/elastictranscoder.d.ts b/node_modules/aws-sdk/clients/elastictranscoder.d.ts
+index bb98a3b..b7c7037 100644
+--- a/node_modules/aws-sdk/clients/elastictranscoder.d.ts
++++ b/node_modules/aws-sdk/clients/elastictranscoder.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ElasticTranscoder extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/elb.d.ts b/node_modules/aws-sdk/clients/elb.d.ts
+index 50dee99..ed8cd78 100644
+--- a/node_modules/aws-sdk/clients/elb.d.ts
++++ b/node_modules/aws-sdk/clients/elb.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ELB extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/elbv2.d.ts b/node_modules/aws-sdk/clients/elbv2.d.ts
+index d3eefe1..ceace01 100644
+--- a/node_modules/aws-sdk/clients/elbv2.d.ts
++++ b/node_modules/aws-sdk/clients/elbv2.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ELBv2 extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/emr.d.ts b/node_modules/aws-sdk/clients/emr.d.ts
+index 02b4d79..50e8fd1 100644
+--- a/node_modules/aws-sdk/clients/emr.d.ts
++++ b/node_modules/aws-sdk/clients/emr.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class EMR extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/es.d.ts b/node_modules/aws-sdk/clients/es.d.ts
+index 5aecef2..4a1916b 100644
+--- a/node_modules/aws-sdk/clients/es.d.ts
++++ b/node_modules/aws-sdk/clients/es.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ES extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/eventbridge.d.ts b/node_modules/aws-sdk/clients/eventbridge.d.ts
+index 0f830e9..da34ba3 100644
+--- a/node_modules/aws-sdk/clients/eventbridge.d.ts
++++ b/node_modules/aws-sdk/clients/eventbridge.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class EventBridge extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/firehose.d.ts b/node_modules/aws-sdk/clients/firehose.d.ts
+index 5b21828..ea9cc1a 100644
+--- a/node_modules/aws-sdk/clients/firehose.d.ts
++++ b/node_modules/aws-sdk/clients/firehose.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Firehose extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/fms.d.ts b/node_modules/aws-sdk/clients/fms.d.ts
+index 49aa680..0ab556f 100644
+--- a/node_modules/aws-sdk/clients/fms.d.ts
++++ b/node_modules/aws-sdk/clients/fms.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class FMS extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/forecastqueryservice.d.ts b/node_modules/aws-sdk/clients/forecastqueryservice.d.ts
+index 8ebddc8..dcf80f8 100644
+--- a/node_modules/aws-sdk/clients/forecastqueryservice.d.ts
++++ b/node_modules/aws-sdk/clients/forecastqueryservice.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ForecastQueryService extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/forecastservice.d.ts b/node_modules/aws-sdk/clients/forecastservice.d.ts
+index a65c82d..92f261b 100644
+--- a/node_modules/aws-sdk/clients/forecastservice.d.ts
++++ b/node_modules/aws-sdk/clients/forecastservice.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ForecastService extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/frauddetector.d.ts b/node_modules/aws-sdk/clients/frauddetector.d.ts
+index be46996..62e515e 100644
+--- a/node_modules/aws-sdk/clients/frauddetector.d.ts
++++ b/node_modules/aws-sdk/clients/frauddetector.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class FraudDetector extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/fsx.d.ts b/node_modules/aws-sdk/clients/fsx.d.ts
+index af74615..a51865c 100644
+--- a/node_modules/aws-sdk/clients/fsx.d.ts
++++ b/node_modules/aws-sdk/clients/fsx.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class FSx extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/gamelift.d.ts b/node_modules/aws-sdk/clients/gamelift.d.ts
+index db76da4..08d5ac2 100644
+--- a/node_modules/aws-sdk/clients/gamelift.d.ts
++++ b/node_modules/aws-sdk/clients/gamelift.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class GameLift extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/glacier.d.ts b/node_modules/aws-sdk/clients/glacier.d.ts
+index 9877b80..f9d6c1d 100644
+--- a/node_modules/aws-sdk/clients/glacier.d.ts
++++ b/node_modules/aws-sdk/clients/glacier.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {GlacierCustomizations} from '../lib/services/glacier';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ import {Readable} from 'stream';
+ interface Blob {}
+ declare class Glacier extends GlacierCustomizations {
+diff --git a/node_modules/aws-sdk/clients/globalaccelerator.d.ts b/node_modules/aws-sdk/clients/globalaccelerator.d.ts
+index adc5a17..639aba4 100644
+--- a/node_modules/aws-sdk/clients/globalaccelerator.d.ts
++++ b/node_modules/aws-sdk/clients/globalaccelerator.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class GlobalAccelerator extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/glue.d.ts b/node_modules/aws-sdk/clients/glue.d.ts
+index 841eab6..37afbad 100644
+--- a/node_modules/aws-sdk/clients/glue.d.ts
++++ b/node_modules/aws-sdk/clients/glue.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Glue extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/greengrass.d.ts b/node_modules/aws-sdk/clients/greengrass.d.ts
+index 9924a12..3930609 100644
+--- a/node_modules/aws-sdk/clients/greengrass.d.ts
++++ b/node_modules/aws-sdk/clients/greengrass.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Greengrass extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/groundstation.d.ts b/node_modules/aws-sdk/clients/groundstation.d.ts
+index daaea15..06632ad 100644
+--- a/node_modules/aws-sdk/clients/groundstation.d.ts
++++ b/node_modules/aws-sdk/clients/groundstation.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class GroundStation extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/guardduty.d.ts b/node_modules/aws-sdk/clients/guardduty.d.ts
+index dec1a95..1189762 100644
+--- a/node_modules/aws-sdk/clients/guardduty.d.ts
++++ b/node_modules/aws-sdk/clients/guardduty.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class GuardDuty extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/health.d.ts b/node_modules/aws-sdk/clients/health.d.ts
+index 3d571a9..6a19372 100644
+--- a/node_modules/aws-sdk/clients/health.d.ts
++++ b/node_modules/aws-sdk/clients/health.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Health extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/honeycode.d.ts b/node_modules/aws-sdk/clients/honeycode.d.ts
+index 109d146..d64fbce 100644
+--- a/node_modules/aws-sdk/clients/honeycode.d.ts
++++ b/node_modules/aws-sdk/clients/honeycode.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Honeycode extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/iam.d.ts b/node_modules/aws-sdk/clients/iam.d.ts
+index cdd4e13..e7144ad 100644
+--- a/node_modules/aws-sdk/clients/iam.d.ts
++++ b/node_modules/aws-sdk/clients/iam.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class IAM extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/imagebuilder.d.ts b/node_modules/aws-sdk/clients/imagebuilder.d.ts
+index deef4f6..6374560 100644
+--- a/node_modules/aws-sdk/clients/imagebuilder.d.ts
++++ b/node_modules/aws-sdk/clients/imagebuilder.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Imagebuilder extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/importexport.d.ts b/node_modules/aws-sdk/clients/importexport.d.ts
+index 2cc0214..7ec6d7b 100644
+--- a/node_modules/aws-sdk/clients/importexport.d.ts
++++ b/node_modules/aws-sdk/clients/importexport.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ImportExport extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/inspector.d.ts b/node_modules/aws-sdk/clients/inspector.d.ts
+index 39ac66e..4d7ea93 100644
+--- a/node_modules/aws-sdk/clients/inspector.d.ts
++++ b/node_modules/aws-sdk/clients/inspector.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Inspector extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/iot.d.ts b/node_modules/aws-sdk/clients/iot.d.ts
+index fa107b9..ea5274d 100644
+--- a/node_modules/aws-sdk/clients/iot.d.ts
++++ b/node_modules/aws-sdk/clients/iot.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Iot extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/iot1clickdevicesservice.d.ts b/node_modules/aws-sdk/clients/iot1clickdevicesservice.d.ts
+index e0487f3..272a2ea 100644
+--- a/node_modules/aws-sdk/clients/iot1clickdevicesservice.d.ts
++++ b/node_modules/aws-sdk/clients/iot1clickdevicesservice.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class IoT1ClickDevicesService extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/iot1clickprojects.d.ts b/node_modules/aws-sdk/clients/iot1clickprojects.d.ts
+index 063ff5d..a70e3ca 100644
+--- a/node_modules/aws-sdk/clients/iot1clickprojects.d.ts
++++ b/node_modules/aws-sdk/clients/iot1clickprojects.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class IoT1ClickProjects extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/iotanalytics.d.ts b/node_modules/aws-sdk/clients/iotanalytics.d.ts
+index 7f95e19..7564277 100644
+--- a/node_modules/aws-sdk/clients/iotanalytics.d.ts
++++ b/node_modules/aws-sdk/clients/iotanalytics.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class IoTAnalytics extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/iotdata.d.ts b/node_modules/aws-sdk/clients/iotdata.d.ts
+index 6915ced..03c449d 100644
+--- a/node_modules/aws-sdk/clients/iotdata.d.ts
++++ b/node_modules/aws-sdk/clients/iotdata.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class IotData extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/iotevents.d.ts b/node_modules/aws-sdk/clients/iotevents.d.ts
+index d7f182e..8a69eea 100644
+--- a/node_modules/aws-sdk/clients/iotevents.d.ts
++++ b/node_modules/aws-sdk/clients/iotevents.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class IoTEvents extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/ioteventsdata.d.ts b/node_modules/aws-sdk/clients/ioteventsdata.d.ts
+index a8d399b..e17dd5b 100644
+--- a/node_modules/aws-sdk/clients/ioteventsdata.d.ts
++++ b/node_modules/aws-sdk/clients/ioteventsdata.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class IoTEventsData extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/iotjobsdataplane.d.ts b/node_modules/aws-sdk/clients/iotjobsdataplane.d.ts
+index f703253..74f256f 100644
+--- a/node_modules/aws-sdk/clients/iotjobsdataplane.d.ts
++++ b/node_modules/aws-sdk/clients/iotjobsdataplane.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class IoTJobsDataPlane extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/iotsecuretunneling.d.ts b/node_modules/aws-sdk/clients/iotsecuretunneling.d.ts
+index 053fade..85d0902 100644
+--- a/node_modules/aws-sdk/clients/iotsecuretunneling.d.ts
++++ b/node_modules/aws-sdk/clients/iotsecuretunneling.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class IoTSecureTunneling extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/iotsitewise.d.ts b/node_modules/aws-sdk/clients/iotsitewise.d.ts
+index 8fd1700..05b2945 100644
+--- a/node_modules/aws-sdk/clients/iotsitewise.d.ts
++++ b/node_modules/aws-sdk/clients/iotsitewise.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class IoTSiteWise extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/iotthingsgraph.d.ts b/node_modules/aws-sdk/clients/iotthingsgraph.d.ts
+index fadf3fb..ad6d27f 100644
+--- a/node_modules/aws-sdk/clients/iotthingsgraph.d.ts
++++ b/node_modules/aws-sdk/clients/iotthingsgraph.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class IoTThingsGraph extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/ivs.d.ts b/node_modules/aws-sdk/clients/ivs.d.ts
+index ed61758..aeb1ac3 100644
+--- a/node_modules/aws-sdk/clients/ivs.d.ts
++++ b/node_modules/aws-sdk/clients/ivs.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class IVS extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/kafka.d.ts b/node_modules/aws-sdk/clients/kafka.d.ts
+index 994bfc8..a8ef22a 100644
+--- a/node_modules/aws-sdk/clients/kafka.d.ts
++++ b/node_modules/aws-sdk/clients/kafka.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Kafka extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/kendra.d.ts b/node_modules/aws-sdk/clients/kendra.d.ts
+index fe7e311..3430f07 100644
+--- a/node_modules/aws-sdk/clients/kendra.d.ts
++++ b/node_modules/aws-sdk/clients/kendra.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Kendra extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/kinesis.d.ts b/node_modules/aws-sdk/clients/kinesis.d.ts
+index da52147..f6aaeb0 100644
+--- a/node_modules/aws-sdk/clients/kinesis.d.ts
++++ b/node_modules/aws-sdk/clients/kinesis.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Kinesis extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/kinesisanalytics.d.ts b/node_modules/aws-sdk/clients/kinesisanalytics.d.ts
+index c5d5b84..b539937 100644
+--- a/node_modules/aws-sdk/clients/kinesisanalytics.d.ts
++++ b/node_modules/aws-sdk/clients/kinesisanalytics.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class KinesisAnalytics extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/kinesisanalyticsv2.d.ts b/node_modules/aws-sdk/clients/kinesisanalyticsv2.d.ts
+index 32e79db..25bc6ae 100644
+--- a/node_modules/aws-sdk/clients/kinesisanalyticsv2.d.ts
++++ b/node_modules/aws-sdk/clients/kinesisanalyticsv2.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class KinesisAnalyticsV2 extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/kinesisvideo.d.ts b/node_modules/aws-sdk/clients/kinesisvideo.d.ts
+index 70abf6b..e318133 100644
+--- a/node_modules/aws-sdk/clients/kinesisvideo.d.ts
++++ b/node_modules/aws-sdk/clients/kinesisvideo.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class KinesisVideo extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/kinesisvideoarchivedmedia.d.ts b/node_modules/aws-sdk/clients/kinesisvideoarchivedmedia.d.ts
+index 3d37635..6f113f7 100644
+--- a/node_modules/aws-sdk/clients/kinesisvideoarchivedmedia.d.ts
++++ b/node_modules/aws-sdk/clients/kinesisvideoarchivedmedia.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ import {Readable} from 'stream';
+ interface Blob {}
+ declare class KinesisVideoArchivedMedia extends Service {
+diff --git a/node_modules/aws-sdk/clients/kinesisvideomedia.d.ts b/node_modules/aws-sdk/clients/kinesisvideomedia.d.ts
+index 1bbf2c0..8c2c8ed 100644
+--- a/node_modules/aws-sdk/clients/kinesisvideomedia.d.ts
++++ b/node_modules/aws-sdk/clients/kinesisvideomedia.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ import {Readable} from 'stream';
+ interface Blob {}
+ declare class KinesisVideoMedia extends Service {
+diff --git a/node_modules/aws-sdk/clients/kinesisvideosignalingchannels.d.ts b/node_modules/aws-sdk/clients/kinesisvideosignalingchannels.d.ts
+index e6af46d..5f757b7 100644
+--- a/node_modules/aws-sdk/clients/kinesisvideosignalingchannels.d.ts
++++ b/node_modules/aws-sdk/clients/kinesisvideosignalingchannels.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class KinesisVideoSignalingChannels extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/kms.d.ts b/node_modules/aws-sdk/clients/kms.d.ts
+index 70b4016..da652bb 100644
+--- a/node_modules/aws-sdk/clients/kms.d.ts
++++ b/node_modules/aws-sdk/clients/kms.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class KMS extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/lakeformation.d.ts b/node_modules/aws-sdk/clients/lakeformation.d.ts
+index 3bfa611..8beed79 100644
+--- a/node_modules/aws-sdk/clients/lakeformation.d.ts
++++ b/node_modules/aws-sdk/clients/lakeformation.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class LakeFormation extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/lambda.d.ts b/node_modules/aws-sdk/clients/lambda.d.ts
+index 4b82cf9..1e8abf0 100644
+--- a/node_modules/aws-sdk/clients/lambda.d.ts
++++ b/node_modules/aws-sdk/clients/lambda.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ import {Readable} from 'stream';
+ interface Blob {}
+ declare class Lambda extends Service {
+diff --git a/node_modules/aws-sdk/clients/lexmodelbuildingservice.d.ts b/node_modules/aws-sdk/clients/lexmodelbuildingservice.d.ts
+index 261132f..a37ee5f 100644
+--- a/node_modules/aws-sdk/clients/lexmodelbuildingservice.d.ts
++++ b/node_modules/aws-sdk/clients/lexmodelbuildingservice.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class LexModelBuildingService extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/lexruntime.d.ts b/node_modules/aws-sdk/clients/lexruntime.d.ts
+index b32d047..9823ad0 100644
+--- a/node_modules/aws-sdk/clients/lexruntime.d.ts
++++ b/node_modules/aws-sdk/clients/lexruntime.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ import {Readable} from 'stream';
+ interface Blob {}
+ declare class LexRuntime extends Service {
+diff --git a/node_modules/aws-sdk/clients/licensemanager.d.ts b/node_modules/aws-sdk/clients/licensemanager.d.ts
+index aa942cd..9cde61e 100644
+--- a/node_modules/aws-sdk/clients/licensemanager.d.ts
++++ b/node_modules/aws-sdk/clients/licensemanager.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class LicenseManager extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/lightsail.d.ts b/node_modules/aws-sdk/clients/lightsail.d.ts
+index 13d4c13..138c458 100644
+--- a/node_modules/aws-sdk/clients/lightsail.d.ts
++++ b/node_modules/aws-sdk/clients/lightsail.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Lightsail extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/machinelearning.d.ts b/node_modules/aws-sdk/clients/machinelearning.d.ts
+index 83f91e0..a7370be 100644
+--- a/node_modules/aws-sdk/clients/machinelearning.d.ts
++++ b/node_modules/aws-sdk/clients/machinelearning.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class MachineLearning extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/macie.d.ts b/node_modules/aws-sdk/clients/macie.d.ts
+index 05d8288..cf3afc0 100644
+--- a/node_modules/aws-sdk/clients/macie.d.ts
++++ b/node_modules/aws-sdk/clients/macie.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Macie extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/macie2.d.ts b/node_modules/aws-sdk/clients/macie2.d.ts
+index 06be227..974c525 100644
+--- a/node_modules/aws-sdk/clients/macie2.d.ts
++++ b/node_modules/aws-sdk/clients/macie2.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Macie2 extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/managedblockchain.d.ts b/node_modules/aws-sdk/clients/managedblockchain.d.ts
+index 40252e2..40a9f8b 100644
+--- a/node_modules/aws-sdk/clients/managedblockchain.d.ts
++++ b/node_modules/aws-sdk/clients/managedblockchain.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ManagedBlockchain extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/marketplacecatalog.d.ts b/node_modules/aws-sdk/clients/marketplacecatalog.d.ts
+index c8257df..c8633e6 100644
+--- a/node_modules/aws-sdk/clients/marketplacecatalog.d.ts
++++ b/node_modules/aws-sdk/clients/marketplacecatalog.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class MarketplaceCatalog extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/marketplacecommerceanalytics.d.ts b/node_modules/aws-sdk/clients/marketplacecommerceanalytics.d.ts
+index 0a28693..088b1d5 100644
+--- a/node_modules/aws-sdk/clients/marketplacecommerceanalytics.d.ts
++++ b/node_modules/aws-sdk/clients/marketplacecommerceanalytics.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class MarketplaceCommerceAnalytics extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/marketplaceentitlementservice.d.ts b/node_modules/aws-sdk/clients/marketplaceentitlementservice.d.ts
+index d79b9c1..4e674c4 100644
+--- a/node_modules/aws-sdk/clients/marketplaceentitlementservice.d.ts
++++ b/node_modules/aws-sdk/clients/marketplaceentitlementservice.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class MarketplaceEntitlementService extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/marketplacemetering.d.ts b/node_modules/aws-sdk/clients/marketplacemetering.d.ts
+index ce1b6a6..354238f 100644
+--- a/node_modules/aws-sdk/clients/marketplacemetering.d.ts
++++ b/node_modules/aws-sdk/clients/marketplacemetering.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class MarketplaceMetering extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/mediaconnect.d.ts b/node_modules/aws-sdk/clients/mediaconnect.d.ts
+index 5c565ea..a47db1e 100644
+--- a/node_modules/aws-sdk/clients/mediaconnect.d.ts
++++ b/node_modules/aws-sdk/clients/mediaconnect.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class MediaConnect extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/mediaconvert.d.ts b/node_modules/aws-sdk/clients/mediaconvert.d.ts
+index 8fe9bb7..a64c639 100644
+--- a/node_modules/aws-sdk/clients/mediaconvert.d.ts
++++ b/node_modules/aws-sdk/clients/mediaconvert.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class MediaConvert extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/medialive.d.ts b/node_modules/aws-sdk/clients/medialive.d.ts
+index 498396d..ee79927 100644
+--- a/node_modules/aws-sdk/clients/medialive.d.ts
++++ b/node_modules/aws-sdk/clients/medialive.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ import {Readable} from 'stream';
+ interface Blob {}
+ declare class MediaLive extends Service {
+diff --git a/node_modules/aws-sdk/clients/mediapackage.d.ts b/node_modules/aws-sdk/clients/mediapackage.d.ts
+index 6735883..e170bbe 100644
+--- a/node_modules/aws-sdk/clients/mediapackage.d.ts
++++ b/node_modules/aws-sdk/clients/mediapackage.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class MediaPackage extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/mediapackagevod.d.ts b/node_modules/aws-sdk/clients/mediapackagevod.d.ts
+index cc2c9a9..901910f 100644
+--- a/node_modules/aws-sdk/clients/mediapackagevod.d.ts
++++ b/node_modules/aws-sdk/clients/mediapackagevod.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class MediaPackageVod extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/mediastore.d.ts b/node_modules/aws-sdk/clients/mediastore.d.ts
+index 2130ed3..4fa37ac 100644
+--- a/node_modules/aws-sdk/clients/mediastore.d.ts
++++ b/node_modules/aws-sdk/clients/mediastore.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class MediaStore extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/mediastoredata.d.ts b/node_modules/aws-sdk/clients/mediastoredata.d.ts
+index fd35caf..6877c70 100644
+--- a/node_modules/aws-sdk/clients/mediastoredata.d.ts
++++ b/node_modules/aws-sdk/clients/mediastoredata.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ import {Readable} from 'stream';
+ interface Blob {}
+ declare class MediaStoreData extends Service {
+diff --git a/node_modules/aws-sdk/clients/mediatailor.d.ts b/node_modules/aws-sdk/clients/mediatailor.d.ts
+index a6e1b26..5bcfde5 100644
+--- a/node_modules/aws-sdk/clients/mediatailor.d.ts
++++ b/node_modules/aws-sdk/clients/mediatailor.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class MediaTailor extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/migrationhub.d.ts b/node_modules/aws-sdk/clients/migrationhub.d.ts
+index ab9fd30..4d39c6b 100644
+--- a/node_modules/aws-sdk/clients/migrationhub.d.ts
++++ b/node_modules/aws-sdk/clients/migrationhub.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class MigrationHub extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/migrationhubconfig.d.ts b/node_modules/aws-sdk/clients/migrationhubconfig.d.ts
+index c7f3fd0..d66b34c 100644
+--- a/node_modules/aws-sdk/clients/migrationhubconfig.d.ts
++++ b/node_modules/aws-sdk/clients/migrationhubconfig.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class MigrationHubConfig extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/mobile.d.ts b/node_modules/aws-sdk/clients/mobile.d.ts
+index 3292537..99cf28a 100644
+--- a/node_modules/aws-sdk/clients/mobile.d.ts
++++ b/node_modules/aws-sdk/clients/mobile.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Mobile extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/mobileanalytics.d.ts b/node_modules/aws-sdk/clients/mobileanalytics.d.ts
+index b935e4c..a24feca 100644
+--- a/node_modules/aws-sdk/clients/mobileanalytics.d.ts
++++ b/node_modules/aws-sdk/clients/mobileanalytics.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class MobileAnalytics extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/mq.d.ts b/node_modules/aws-sdk/clients/mq.d.ts
+index ac84f5f..812c3d3 100644
+--- a/node_modules/aws-sdk/clients/mq.d.ts
++++ b/node_modules/aws-sdk/clients/mq.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class MQ extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/mturk.d.ts b/node_modules/aws-sdk/clients/mturk.d.ts
+index 95c8142..dbdfca8 100644
+--- a/node_modules/aws-sdk/clients/mturk.d.ts
++++ b/node_modules/aws-sdk/clients/mturk.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class MTurk extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/neptune.d.ts b/node_modules/aws-sdk/clients/neptune.d.ts
+index 01ec930..336a6d8 100644
+--- a/node_modules/aws-sdk/clients/neptune.d.ts
++++ b/node_modules/aws-sdk/clients/neptune.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Neptune extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/networkmanager.d.ts b/node_modules/aws-sdk/clients/networkmanager.d.ts
+index 20d5e84..4e354fe 100644
+--- a/node_modules/aws-sdk/clients/networkmanager.d.ts
++++ b/node_modules/aws-sdk/clients/networkmanager.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class NetworkManager extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/opsworks.d.ts b/node_modules/aws-sdk/clients/opsworks.d.ts
+index f282851..40f606e 100644
+--- a/node_modules/aws-sdk/clients/opsworks.d.ts
++++ b/node_modules/aws-sdk/clients/opsworks.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class OpsWorks extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/opsworkscm.d.ts b/node_modules/aws-sdk/clients/opsworkscm.d.ts
+index a19d0f5..2a544e0 100644
+--- a/node_modules/aws-sdk/clients/opsworkscm.d.ts
++++ b/node_modules/aws-sdk/clients/opsworkscm.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class OpsWorksCM extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/organizations.d.ts b/node_modules/aws-sdk/clients/organizations.d.ts
+index 4e3d2d5..c536722 100644
+--- a/node_modules/aws-sdk/clients/organizations.d.ts
++++ b/node_modules/aws-sdk/clients/organizations.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Organizations extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/outposts.d.ts b/node_modules/aws-sdk/clients/outposts.d.ts
+index de4e34e..7cb74e0 100644
+--- a/node_modules/aws-sdk/clients/outposts.d.ts
++++ b/node_modules/aws-sdk/clients/outposts.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Outposts extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/personalize.d.ts b/node_modules/aws-sdk/clients/personalize.d.ts
+index bb79d6e..8847fbf 100644
+--- a/node_modules/aws-sdk/clients/personalize.d.ts
++++ b/node_modules/aws-sdk/clients/personalize.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Personalize extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/personalizeevents.d.ts b/node_modules/aws-sdk/clients/personalizeevents.d.ts
+index b485e55..abe528c 100644
+--- a/node_modules/aws-sdk/clients/personalizeevents.d.ts
++++ b/node_modules/aws-sdk/clients/personalizeevents.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class PersonalizeEvents extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/personalizeruntime.d.ts b/node_modules/aws-sdk/clients/personalizeruntime.d.ts
+index a686fc5..25497ee 100644
+--- a/node_modules/aws-sdk/clients/personalizeruntime.d.ts
++++ b/node_modules/aws-sdk/clients/personalizeruntime.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class PersonalizeRuntime extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/pi.d.ts b/node_modules/aws-sdk/clients/pi.d.ts
+index c5e8cf3..ce42789 100644
+--- a/node_modules/aws-sdk/clients/pi.d.ts
++++ b/node_modules/aws-sdk/clients/pi.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class PI extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/pinpoint.d.ts b/node_modules/aws-sdk/clients/pinpoint.d.ts
+index 533e311..09cb82e 100644
+--- a/node_modules/aws-sdk/clients/pinpoint.d.ts
++++ b/node_modules/aws-sdk/clients/pinpoint.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Pinpoint extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/pinpointemail.d.ts b/node_modules/aws-sdk/clients/pinpointemail.d.ts
+index c966e7f..fd97319 100644
+--- a/node_modules/aws-sdk/clients/pinpointemail.d.ts
++++ b/node_modules/aws-sdk/clients/pinpointemail.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class PinpointEmail extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/pinpointsmsvoice.d.ts b/node_modules/aws-sdk/clients/pinpointsmsvoice.d.ts
+index 8d8b4a8..a4d9a57 100644
+--- a/node_modules/aws-sdk/clients/pinpointsmsvoice.d.ts
++++ b/node_modules/aws-sdk/clients/pinpointsmsvoice.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class PinpointSMSVoice extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/polly.d.ts b/node_modules/aws-sdk/clients/polly.d.ts
+index 90dce3a..2570345 100644
+--- a/node_modules/aws-sdk/clients/polly.d.ts
++++ b/node_modules/aws-sdk/clients/polly.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {PollyCustomizations} from '../lib/services/polly';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ import {Presigner as presigner} from '../lib/polly/presigner';
+ import {Readable} from 'stream';
+ interface Blob {}
+diff --git a/node_modules/aws-sdk/clients/pricing.d.ts b/node_modules/aws-sdk/clients/pricing.d.ts
+index 33727b2..4c3b929 100644
+--- a/node_modules/aws-sdk/clients/pricing.d.ts
++++ b/node_modules/aws-sdk/clients/pricing.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Pricing extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/qldb.d.ts b/node_modules/aws-sdk/clients/qldb.d.ts
+index dffa1fe..95845cf 100644
+--- a/node_modules/aws-sdk/clients/qldb.d.ts
++++ b/node_modules/aws-sdk/clients/qldb.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class QLDB extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/qldbsession.d.ts b/node_modules/aws-sdk/clients/qldbsession.d.ts
+index 1d56160..88d7ebd 100644
+--- a/node_modules/aws-sdk/clients/qldbsession.d.ts
++++ b/node_modules/aws-sdk/clients/qldbsession.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class QLDBSession extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/quicksight.d.ts b/node_modules/aws-sdk/clients/quicksight.d.ts
+index 5655a08..b04832c 100644
+--- a/node_modules/aws-sdk/clients/quicksight.d.ts
++++ b/node_modules/aws-sdk/clients/quicksight.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class QuickSight extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/ram.d.ts b/node_modules/aws-sdk/clients/ram.d.ts
+index 9f973c2..9add21f 100644
+--- a/node_modules/aws-sdk/clients/ram.d.ts
++++ b/node_modules/aws-sdk/clients/ram.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class RAM extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/rds.d.ts b/node_modules/aws-sdk/clients/rds.d.ts
+index 0422f9e..96e4658 100644
+--- a/node_modules/aws-sdk/clients/rds.d.ts
++++ b/node_modules/aws-sdk/clients/rds.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ import {Signer as signer} from '../lib/rds/signer';
+ interface Blob {}
+ declare class RDS extends Service {
+diff --git a/node_modules/aws-sdk/clients/rdsdataservice.d.ts b/node_modules/aws-sdk/clients/rdsdataservice.d.ts
+index 739a8ab..2bfe147 100644
+--- a/node_modules/aws-sdk/clients/rdsdataservice.d.ts
++++ b/node_modules/aws-sdk/clients/rdsdataservice.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class RDSDataService extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/redshift.d.ts b/node_modules/aws-sdk/clients/redshift.d.ts
+index e81bd61..4f153c8 100644
+--- a/node_modules/aws-sdk/clients/redshift.d.ts
++++ b/node_modules/aws-sdk/clients/redshift.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Redshift extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/rekognition.d.ts b/node_modules/aws-sdk/clients/rekognition.d.ts
+index 33cf867..a160b77 100644
+--- a/node_modules/aws-sdk/clients/rekognition.d.ts
++++ b/node_modules/aws-sdk/clients/rekognition.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Rekognition extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/resourcegroups.d.ts b/node_modules/aws-sdk/clients/resourcegroups.d.ts
+index c1424ee..517ffa3 100644
+--- a/node_modules/aws-sdk/clients/resourcegroups.d.ts
++++ b/node_modules/aws-sdk/clients/resourcegroups.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ResourceGroups extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/resourcegroupstaggingapi.d.ts b/node_modules/aws-sdk/clients/resourcegroupstaggingapi.d.ts
+index a12d9cf..dae8bea 100644
+--- a/node_modules/aws-sdk/clients/resourcegroupstaggingapi.d.ts
++++ b/node_modules/aws-sdk/clients/resourcegroupstaggingapi.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ResourceGroupsTaggingAPI extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/robomaker.d.ts b/node_modules/aws-sdk/clients/robomaker.d.ts
+index 6a7c063..c17b9be 100644
+--- a/node_modules/aws-sdk/clients/robomaker.d.ts
++++ b/node_modules/aws-sdk/clients/robomaker.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class RoboMaker extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/route53.d.ts b/node_modules/aws-sdk/clients/route53.d.ts
+index 1b3c9e2..e610596 100644
+--- a/node_modules/aws-sdk/clients/route53.d.ts
++++ b/node_modules/aws-sdk/clients/route53.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Route53 extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/route53domains.d.ts b/node_modules/aws-sdk/clients/route53domains.d.ts
+index fe8c706..b5aff03 100644
+--- a/node_modules/aws-sdk/clients/route53domains.d.ts
++++ b/node_modules/aws-sdk/clients/route53domains.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Route53Domains extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/route53resolver.d.ts b/node_modules/aws-sdk/clients/route53resolver.d.ts
+index c2bbe22..1c1ed3a 100644
+--- a/node_modules/aws-sdk/clients/route53resolver.d.ts
++++ b/node_modules/aws-sdk/clients/route53resolver.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Route53Resolver extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/s3.d.ts b/node_modules/aws-sdk/clients/s3.d.ts
+index bbd4e21..9a42ed6 100644
+--- a/node_modules/aws-sdk/clients/s3.d.ts
++++ b/node_modules/aws-sdk/clients/s3.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {S3Customizations} from '../lib/services/s3';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ import {UseDualstackConfigOptions} from '../lib/config_use_dualstack';
+ import {EventStream} from '../lib/event-stream/event-stream';
+ import {ManagedUpload as managed_upload} from '../lib/s3/managed_upload';
+diff --git a/node_modules/aws-sdk/clients/s3control.d.ts b/node_modules/aws-sdk/clients/s3control.d.ts
+index 35e5737..a5bb966 100644
+--- a/node_modules/aws-sdk/clients/s3control.d.ts
++++ b/node_modules/aws-sdk/clients/s3control.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ import {UseDualstackConfigOptions} from '../lib/config_use_dualstack';
+ interface Blob {}
+ declare class S3Control extends Service {
+diff --git a/node_modules/aws-sdk/clients/sagemaker.d.ts b/node_modules/aws-sdk/clients/sagemaker.d.ts
+index c83bbf4..241027f 100644
+--- a/node_modules/aws-sdk/clients/sagemaker.d.ts
++++ b/node_modules/aws-sdk/clients/sagemaker.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class SageMaker extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/sagemakerruntime.d.ts b/node_modules/aws-sdk/clients/sagemakerruntime.d.ts
+index e195ccd..1a4895d 100644
+--- a/node_modules/aws-sdk/clients/sagemakerruntime.d.ts
++++ b/node_modules/aws-sdk/clients/sagemakerruntime.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class SageMakerRuntime extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/savingsplans.d.ts b/node_modules/aws-sdk/clients/savingsplans.d.ts
+index a5a8b2b..7266a14 100644
+--- a/node_modules/aws-sdk/clients/savingsplans.d.ts
++++ b/node_modules/aws-sdk/clients/savingsplans.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class SavingsPlans extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/schemas.d.ts b/node_modules/aws-sdk/clients/schemas.d.ts
+index 06dc04e..61cb2e0 100644
+--- a/node_modules/aws-sdk/clients/schemas.d.ts
++++ b/node_modules/aws-sdk/clients/schemas.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Schemas extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/secretsmanager.d.ts b/node_modules/aws-sdk/clients/secretsmanager.d.ts
+index d6f678e..4025633 100644
+--- a/node_modules/aws-sdk/clients/secretsmanager.d.ts
++++ b/node_modules/aws-sdk/clients/secretsmanager.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class SecretsManager extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/securityhub.d.ts b/node_modules/aws-sdk/clients/securityhub.d.ts
+index bf66fea..b808361 100644
+--- a/node_modules/aws-sdk/clients/securityhub.d.ts
++++ b/node_modules/aws-sdk/clients/securityhub.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class SecurityHub extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/serverlessapplicationrepository.d.ts b/node_modules/aws-sdk/clients/serverlessapplicationrepository.d.ts
+index 84a2382..f703a92 100644
+--- a/node_modules/aws-sdk/clients/serverlessapplicationrepository.d.ts
++++ b/node_modules/aws-sdk/clients/serverlessapplicationrepository.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ServerlessApplicationRepository extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/servicecatalog.d.ts b/node_modules/aws-sdk/clients/servicecatalog.d.ts
+index 84293ab..42a7947 100644
+--- a/node_modules/aws-sdk/clients/servicecatalog.d.ts
++++ b/node_modules/aws-sdk/clients/servicecatalog.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ServiceCatalog extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/servicediscovery.d.ts b/node_modules/aws-sdk/clients/servicediscovery.d.ts
+index c482947..728e7d0 100644
+--- a/node_modules/aws-sdk/clients/servicediscovery.d.ts
++++ b/node_modules/aws-sdk/clients/servicediscovery.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ServiceDiscovery extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/servicequotas.d.ts b/node_modules/aws-sdk/clients/servicequotas.d.ts
+index 6efbdf0..f26794e 100644
+--- a/node_modules/aws-sdk/clients/servicequotas.d.ts
++++ b/node_modules/aws-sdk/clients/servicequotas.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class ServiceQuotas extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/ses.d.ts b/node_modules/aws-sdk/clients/ses.d.ts
+index 4ad2c1b..2bfc497 100644
+--- a/node_modules/aws-sdk/clients/ses.d.ts
++++ b/node_modules/aws-sdk/clients/ses.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class SES extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/sesv2.d.ts b/node_modules/aws-sdk/clients/sesv2.d.ts
+index 9b61aaf..77ceca3 100644
+--- a/node_modules/aws-sdk/clients/sesv2.d.ts
++++ b/node_modules/aws-sdk/clients/sesv2.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class SESV2 extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/shield.d.ts b/node_modules/aws-sdk/clients/shield.d.ts
+index b21de5c..3385b9d 100644
+--- a/node_modules/aws-sdk/clients/shield.d.ts
++++ b/node_modules/aws-sdk/clients/shield.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Shield extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/signer.d.ts b/node_modules/aws-sdk/clients/signer.d.ts
+index d65d1d8..60f1cd8 100644
+--- a/node_modules/aws-sdk/clients/signer.d.ts
++++ b/node_modules/aws-sdk/clients/signer.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Signer extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/simpledb.d.ts b/node_modules/aws-sdk/clients/simpledb.d.ts
+index 1ac2709..4c6855d 100644
+--- a/node_modules/aws-sdk/clients/simpledb.d.ts
++++ b/node_modules/aws-sdk/clients/simpledb.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class SimpleDB extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/sms.d.ts b/node_modules/aws-sdk/clients/sms.d.ts
+index 7018d5c..4d8c7a8 100644
+--- a/node_modules/aws-sdk/clients/sms.d.ts
++++ b/node_modules/aws-sdk/clients/sms.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class SMS extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/snowball.d.ts b/node_modules/aws-sdk/clients/snowball.d.ts
+index 05b0571..5b3739b 100644
+--- a/node_modules/aws-sdk/clients/snowball.d.ts
++++ b/node_modules/aws-sdk/clients/snowball.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Snowball extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/sns.d.ts b/node_modules/aws-sdk/clients/sns.d.ts
+index db78e9c..fed49b1 100644
+--- a/node_modules/aws-sdk/clients/sns.d.ts
++++ b/node_modules/aws-sdk/clients/sns.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class SNS extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/sqs.d.ts b/node_modules/aws-sdk/clients/sqs.d.ts
+index e4dd4f1..e3ac310 100644
+--- a/node_modules/aws-sdk/clients/sqs.d.ts
++++ b/node_modules/aws-sdk/clients/sqs.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class SQS extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/ssm.d.ts b/node_modules/aws-sdk/clients/ssm.d.ts
+index 9efc5e3..3dc8e12 100644
+--- a/node_modules/aws-sdk/clients/ssm.d.ts
++++ b/node_modules/aws-sdk/clients/ssm.d.ts
+@@ -4,7 +4,7 @@ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {WaiterConfiguration} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class SSM extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/sso.d.ts b/node_modules/aws-sdk/clients/sso.d.ts
+index bb6e43f..39fb856 100644
+--- a/node_modules/aws-sdk/clients/sso.d.ts
++++ b/node_modules/aws-sdk/clients/sso.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class SSO extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/ssooidc.d.ts b/node_modules/aws-sdk/clients/ssooidc.d.ts
+index f1ae7da..7762748 100644
+--- a/node_modules/aws-sdk/clients/ssooidc.d.ts
++++ b/node_modules/aws-sdk/clients/ssooidc.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class SSOOIDC extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/stepfunctions.d.ts b/node_modules/aws-sdk/clients/stepfunctions.d.ts
+index 9d785f2..dc6da47 100644
+--- a/node_modules/aws-sdk/clients/stepfunctions.d.ts
++++ b/node_modules/aws-sdk/clients/stepfunctions.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class StepFunctions extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/storagegateway.d.ts b/node_modules/aws-sdk/clients/storagegateway.d.ts
+index 2546767..e06ba70 100644
+--- a/node_modules/aws-sdk/clients/storagegateway.d.ts
++++ b/node_modules/aws-sdk/clients/storagegateway.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class StorageGateway extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/sts.d.ts b/node_modules/aws-sdk/clients/sts.d.ts
+index 189fca9..e6294db 100644
+--- a/node_modules/aws-sdk/clients/sts.d.ts
++++ b/node_modules/aws-sdk/clients/sts.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class STS extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/support.d.ts b/node_modules/aws-sdk/clients/support.d.ts
+index 3580b58..bb87135 100644
+--- a/node_modules/aws-sdk/clients/support.d.ts
++++ b/node_modules/aws-sdk/clients/support.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Support extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/swf.d.ts b/node_modules/aws-sdk/clients/swf.d.ts
+index 907eff4..9eea3af 100644
+--- a/node_modules/aws-sdk/clients/swf.d.ts
++++ b/node_modules/aws-sdk/clients/swf.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class SWF extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/synthetics.d.ts b/node_modules/aws-sdk/clients/synthetics.d.ts
+index d67c3e2..e75f604 100644
+--- a/node_modules/aws-sdk/clients/synthetics.d.ts
++++ b/node_modules/aws-sdk/clients/synthetics.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Synthetics extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/textract.d.ts b/node_modules/aws-sdk/clients/textract.d.ts
+index 60314e2..9216214 100644
+--- a/node_modules/aws-sdk/clients/textract.d.ts
++++ b/node_modules/aws-sdk/clients/textract.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Textract extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/transcribeservice.d.ts b/node_modules/aws-sdk/clients/transcribeservice.d.ts
+index 0ad83d8..9210665 100644
+--- a/node_modules/aws-sdk/clients/transcribeservice.d.ts
++++ b/node_modules/aws-sdk/clients/transcribeservice.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class TranscribeService extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/transfer.d.ts b/node_modules/aws-sdk/clients/transfer.d.ts
+index 22bd8dc..148d1ae 100644
+--- a/node_modules/aws-sdk/clients/transfer.d.ts
++++ b/node_modules/aws-sdk/clients/transfer.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Transfer extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/translate.d.ts b/node_modules/aws-sdk/clients/translate.d.ts
+index b23a76a..75a1385 100644
+--- a/node_modules/aws-sdk/clients/translate.d.ts
++++ b/node_modules/aws-sdk/clients/translate.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class Translate extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/waf.d.ts b/node_modules/aws-sdk/clients/waf.d.ts
+index b7c8e5e..944d4ed 100644
+--- a/node_modules/aws-sdk/clients/waf.d.ts
++++ b/node_modules/aws-sdk/clients/waf.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class WAF extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/wafregional.d.ts b/node_modules/aws-sdk/clients/wafregional.d.ts
+index 4e3bc19..f3a00a9 100644
+--- a/node_modules/aws-sdk/clients/wafregional.d.ts
++++ b/node_modules/aws-sdk/clients/wafregional.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class WAFRegional extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/wafv2.d.ts b/node_modules/aws-sdk/clients/wafv2.d.ts
+index 59fbe00..cee267c 100644
+--- a/node_modules/aws-sdk/clients/wafv2.d.ts
++++ b/node_modules/aws-sdk/clients/wafv2.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class WAFV2 extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/workdocs.d.ts b/node_modules/aws-sdk/clients/workdocs.d.ts
+index a57f6f2..bcef782 100644
+--- a/node_modules/aws-sdk/clients/workdocs.d.ts
++++ b/node_modules/aws-sdk/clients/workdocs.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class WorkDocs extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/worklink.d.ts b/node_modules/aws-sdk/clients/worklink.d.ts
+index c5f6c42..f4cdff7 100644
+--- a/node_modules/aws-sdk/clients/worklink.d.ts
++++ b/node_modules/aws-sdk/clients/worklink.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class WorkLink extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/workmail.d.ts b/node_modules/aws-sdk/clients/workmail.d.ts
+index dd90efc..ccf356c 100644
+--- a/node_modules/aws-sdk/clients/workmail.d.ts
++++ b/node_modules/aws-sdk/clients/workmail.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class WorkMail extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/workmailmessageflow.d.ts b/node_modules/aws-sdk/clients/workmailmessageflow.d.ts
+index bcaadc7..847ed98 100644
+--- a/node_modules/aws-sdk/clients/workmailmessageflow.d.ts
++++ b/node_modules/aws-sdk/clients/workmailmessageflow.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ import {Readable} from 'stream';
+ interface Blob {}
+ declare class WorkMailMessageFlow extends Service {
+diff --git a/node_modules/aws-sdk/clients/workspaces.d.ts b/node_modules/aws-sdk/clients/workspaces.d.ts
+index 0fad425..77d9a04 100644
+--- a/node_modules/aws-sdk/clients/workspaces.d.ts
++++ b/node_modules/aws-sdk/clients/workspaces.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class WorkSpaces extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/clients/xray.d.ts b/node_modules/aws-sdk/clients/xray.d.ts
+index fcf9f12..f86e06c 100644
+--- a/node_modules/aws-sdk/clients/xray.d.ts
++++ b/node_modules/aws-sdk/clients/xray.d.ts
+@@ -3,7 +3,7 @@ import {Response} from '../lib/response';
+ import {AWSError} from '../lib/error';
+ import {Service} from '../lib/service';
+ import {ServiceConfigurationOptions} from '../lib/service';
+-import {ConfigBase as Config} from '../lib/config';
++import {ConfigBase as Config} from '../lib/config-base';
+ interface Blob {}
+ declare class XRay extends Service {
+   /**
+diff --git a/node_modules/aws-sdk/lib/config-base.d.ts b/node_modules/aws-sdk/lib/config-base.d.ts
+new file mode 100644
+index 0000000..1ca4b69
+--- /dev/null
++++ b/node_modules/aws-sdk/lib/config-base.d.ts
+@@ -0,0 +1,269 @@
++import {Agent as httpAgent} from 'http';
++import {Agent as httpsAgent} from 'https';
++import {Credentials, CredentialsOptions} from './credentials';
++import {CredentialProviderChain} from './credentials/credential_provider_chain';
++import {AWSError} from './error';
++
++export class ConfigBase extends ConfigurationOptions{
++    constructor(options?: ConfigurationOptions);
++    /**
++     * Loads credentials from the configuration object.
++     */
++    getCredentials(callback: (err: AWSError) => void): void;
++    /**
++     * Loads configuration data from a JSON file into this config object.
++     * Loading configuration will reset all existing configuration on the object.
++     * This feature is not supported in the browser environment of the SDK.
++     *
++     * @param {string} path - the path relative to your process's current working directory to load configuration from.
++     */
++    loadFromPath(path: string): ConfigBase;
++    /**
++     * Updates the current configuration object with new options.
++     *
++     * @param {ConfigurationOptions} options - a map of option keys and values.
++     * @param {boolean} allowUnknownKeys - Whether unknown keys can be set on the configuration object.
++     */
++    update(options: ConfigurationOptions & {[key: string]: any}, allowUnknownKeys: true): void;
++    /**
++     * Updates the current configuration object with new options.
++     *
++     * @param {ConfigurationOptions} options - a map of option keys and values.
++     * @param {boolean} allowUnknownKeys - Defaults to false. Whether unknown keys can be set on the configuration object.
++     */
++    update(options: ConfigurationOptions, allowUnknownKeys?: false): void;
++    /**
++     * Gets the promise dependency the SDK will use wherever Promises are returned.
++     */
++    getPromisesDependency(): typeof Promise | void;
++    /**
++     * Sets the promise dependency the SDK will use wherever Promises are returned.
++     * @param {function} dep - a reference to a Promise constructor
++     */
++    setPromisesDependency(dep: any): void;
++}
++
++export abstract class ConfigurationOptions {
++
++    /**
++     * Whether to compute checksums for payload bodies when the service accepts it.
++     * Currently supported in S3 only.
++     */
++    computeChecksums?: boolean
++    /**
++     * Whether types are converted when parsing response data.
++     */
++    convertResponseTypes?: boolean
++    /**
++     * Whether to apply a clock skew correction and retry requests that fail because of an skewed client clock.
++     */
++    correctClockSkew?: boolean
++    /**
++     * Sets a custom User-Agent string.
++     * In node environments this will set the User-Agent header, but
++     * browser environments this will set the X-Amz-User-Agent header.
++     */
++    customUserAgent?: string
++    /**
++     * The AWS credentials to sign requests with.
++     */
++    credentials?: Credentials|CredentialsOptions|null
++    /**
++     * The provider chain used to resolve credentials if no static credentials property is set.
++     */
++    credentialProvider?: CredentialProviderChain
++    /**
++     * AWS access key ID.
++     *
++     * @deprecated
++     */
++    accessKeyId?: string
++    /**
++     * AWS secret access key.
++     *
++     * @deprecated
++     */
++    secretAccessKey?: string
++    /**
++     * AWS session token.
++     *
++     * @deprecated
++     */
++    sessionToken?: string
++    /**
++     * A set of options to pass to the low-level HTTP request.
++     */
++    httpOptions?: HTTPOptions
++    /**
++     * An object that responds to .write() (like a stream) or .log() (like the console object) in order to log information about requests.
++     */
++    logger?: Logger
++    /**
++     * The maximum amount of redirects to follow for a service request.
++     */
++    maxRedirects?: number
++    /**
++     * The maximum amount of retries to perform for a service request.
++     */
++    maxRetries?: number
++    /**
++     * Returns whether input parameters should be validated against the operation description before sending the request.
++     * Defaults to true.
++     * Pass a map to enable any of the following specific validation features: min|max|pattern|enum
++     */
++    paramValidation?: ParamValidation|boolean
++    /**
++     * The region to send service requests to.
++     */
++    region?: string
++    /**
++     * Returns A set of options to configure the retry delay on retryable errors.
++     */
++    retryDelayOptions?: RetryDelayOptions
++    /**
++     * Whether the provided endpoint addresses an individual bucket.
++     * false if it addresses the root API endpoint.
++     */
++    s3BucketEndpoint?: boolean
++    /**
++     * Whether to disable S3 body signing when using signature version v4.
++     */
++    s3DisableBodySigning?: boolean
++    /**
++     * Whether to force path style URLs for S3 objects.
++     */
++    s3ForcePathStyle?: boolean
++    /**
++     * When region is set to 'us-east-1', whether to send s3 request to global endpoints
++     * or 'us-east-1' regional endpoints. This config is only applicable to S3 client;
++     * Defaults to 'legacy'
++     */
++    s3UsEast1RegionalEndpoint?: "regional"|"legacy"
++    /**
++     * Whether to override the request region with the region inferred
++     * from requested resource's ARN. Only available for S3 buckets
++     * Defaults to `true`
++     */
++    s3UseArnRegion?: boolean
++    /**
++     * Whether the signature to sign requests with (overriding the API configuration) is cached.
++     */
++    signatureCache?: boolean
++    /**
++     * The signature version to sign requests with (overriding the API configuration).
++     * Possible values: 'v2'|'v3'|'v4'
++     */
++    signatureVersion?: "v2"|"v3"|"v4"|string
++    /**
++     * Whether SSL is enabled for requests.
++     */
++    sslEnabled?: boolean
++    /**
++     * An offset value in milliseconds to apply to all signing times.
++     */
++    systemClockOffset?: number
++    /**
++     * Whether to use the Accelerate endpoint with the S3 service.
++     */
++    useAccelerateEndpoint?: boolean
++    /**
++     * Whether to validate the CRC32 checksum of HTTP response bodies returned
++     * by DynamoDB.
++     */
++    dynamoDbCrc32?: boolean;
++    /**
++     * Whether to enable endpoint discovery for operations that allow optionally using an endpoint returned by 
++     * the service.
++     */
++    endpointDiscoveryEnabled?: boolean;
++    /**
++     * The size of the global cache storing endpoints from endpoint
++     * discovery operations. Once endpoint cache is created, updating this setting
++     * cannot change existing cache size.
++     */
++    endpointCacheSize?: number;
++    /**
++     * Whether to marshal request parameters to the prefix of hostname.
++     */
++    hostPrefixEnabled?: boolean;
++    /**
++     * Whether to send sts request to global endpoints or
++     * regional endpoints. 
++     */
++    stsRegionalEndpoints?: "legacy"|"regional";
++}
++
++
++export interface HTTPOptions {
++    /**
++     * the URL to proxy requests through.
++     */
++    proxy?: string;
++    /**
++     * the Agent object to perform HTTP requests with.
++     * Used for connection pooling.
++     * Defaults to the global agent (http.globalAgent) for non-SSL connections.
++     */
++    agent?: httpAgent | httpsAgent;
++    /**
++     * The maximum time in milliseconds that the connection phase of the request
++     * should be allowed to take. This only limits the connection phase and has
++     * no impact once the socket has established a connection.
++     * Used in node.js environments only.
++     */
++    connectTimeout?: number;
++    /**
++     * The number of milliseconds to wait before giving up on a connection attempt.
++     * Defaults to two minutes (120000).
++     */
++    timeout?: number;
++    /**
++     * Whether the SDK will send asynchronous HTTP requests.
++     * Used in the browser environment only.
++     * Set to false to send requests synchronously.
++     * Defaults to true (async on).
++     */
++    xhrAsync?: boolean;
++    /**
++     * Sets the 'withCredentials' property of an XMLHttpRequest object.
++     * Used in the browser environment only.
++     * Defaults to false.
++     */
++    xhrWithCredentials?: boolean;
++}
++export interface Logger {
++    write?: (chunk: any, encoding?: string, callback?: () => void) => void
++    log?: (...messages: any[]) => void;
++}
++export interface ParamValidation {
++    /**
++     * Validates that a value meets the min constraint.
++     * This is enabled by default when paramValidation is set to true.
++     */
++    min?: boolean
++    /**
++     * Validates that a value meets the max constraint.
++     */
++    max?: boolean
++    /**
++     * Validates that a string value matches a regular expression.
++     */
++    pattern?: boolean
++    /**
++     * Validates that a string value matches one of the allowable enum values.
++     */
++    enum?: boolean
++}
++
++export interface RetryDelayOptions {
++    /**
++     * The base number of milliseconds to use in the exponential backoff for operation retries.
++     * Defaults to 100 ms.
++     */
++    base?: number
++    /**
++     * A custom function that accepts a retry count and error and returns the amount of time to delay in milliseconds. If the result is a non-zero negative value, no further retry attempts will be made.
++     * The base option will be ignored if this option is supplied.
++     */
++    customBackoff?: (retryCount: number, err?: Error) => number
++}
+\ No newline at end of file
+diff --git a/node_modules/aws-sdk/lib/config.d.ts b/node_modules/aws-sdk/lib/config.d.ts
+index 3b25061..cb65914 100644
+--- a/node_modules/aws-sdk/lib/config.d.ts
++++ b/node_modules/aws-sdk/lib/config.d.ts
+@@ -1,48 +1,5 @@
+-import {Agent as httpAgent} from 'http';
+-import {Agent as httpsAgent} from 'https';
+-import {AWSError} from './error';
+-import {Credentials, CredentialsOptions} from './credentials';
+-import {CredentialProviderChain} from './credentials/credential_provider_chain';
+ import {ConfigurationServicePlaceholders, ConfigurationServiceApiVersions} from './config_service_placeholders';
+-
+-export class ConfigBase extends ConfigurationOptions{
+-    constructor(options?: ConfigurationOptions);
+-    /**
+-     * Loads credentials from the configuration object.
+-     */
+-    getCredentials(callback: (err: AWSError) => void): void;
+-    /**
+-     * Loads configuration data from a JSON file into this config object.
+-     * Loading configuration will reset all existing configuration on the object.
+-     * This feature is not supported in the browser environment of the SDK.
+-     *
+-     * @param {string} path - the path relative to your process's current working directory to load configuration from.
+-     */
+-    loadFromPath(path: string): ConfigBase;
+-    /**
+-     * Updates the current configuration object with new options.
+-     *
+-     * @param {ConfigurationOptions} options - a map of option keys and values.
+-     * @param {boolean} allowUnknownKeys - Whether unknown keys can be set on the configuration object.
+-     */
+-    update(options: ConfigurationOptions & {[key: string]: any}, allowUnknownKeys: true): void;
+-    /**
+-     * Updates the current configuration object with new options.
+-     *
+-     * @param {ConfigurationOptions} options - a map of option keys and values.
+-     * @param {boolean} allowUnknownKeys - Defaults to false. Whether unknown keys can be set on the configuration object.
+-     */
+-    update(options: ConfigurationOptions, allowUnknownKeys?: false): void;
+-    /**
+-     * Gets the promise dependency the SDK will use wherever Promises are returned.
+-     */
+-    getPromisesDependency(): typeof Promise | void;
+-    /**
+-     * Sets the promise dependency the SDK will use wherever Promises are returned.
+-     * @param {function} dep - a reference to a Promise constructor
+-     */
+-    setPromisesDependency(dep: any): void;
+-}
++import {ConfigBase, ConfigurationOptions} from './config-base';
+ 
+ export class Config extends ConfigBase {
+     /**
+@@ -76,79 +33,6 @@ export class Config extends ConfigBase {
+ 
+ export type GlobalConfigInstance = Config & ConfigurationServicePlaceholders & APIVersions;
+ 
+-export interface HTTPOptions {
+-    /**
+-     * the URL to proxy requests through.
+-     */
+-    proxy?: string;
+-    /**
+-     * the Agent object to perform HTTP requests with.
+-     * Used for connection pooling.
+-     * Defaults to the global agent (http.globalAgent) for non-SSL connections.
+-     */
+-    agent?: httpAgent | httpsAgent;
+-    /**
+-     * The maximum time in milliseconds that the connection phase of the request
+-     * should be allowed to take. This only limits the connection phase and has
+-     * no impact once the socket has established a connection.
+-     * Used in node.js environments only.
+-     */
+-    connectTimeout?: number;
+-    /**
+-     * The number of milliseconds to wait before giving up on a connection attempt.
+-     * Defaults to two minutes (120000).
+-     */
+-    timeout?: number;
+-    /**
+-     * Whether the SDK will send asynchronous HTTP requests.
+-     * Used in the browser environment only.
+-     * Set to false to send requests synchronously.
+-     * Defaults to true (async on).
+-     */
+-    xhrAsync?: boolean;
+-    /**
+-     * Sets the 'withCredentials' property of an XMLHttpRequest object.
+-     * Used in the browser environment only.
+-     * Defaults to false.
+-     */
+-    xhrWithCredentials?: boolean;
+-}
+-export interface Logger {
+-    write?: (chunk: any, encoding?: string, callback?: () => void) => void
+-    log?: (...messages: any[]) => void;
+-}
+-export interface ParamValidation {
+-    /**
+-     * Validates that a value meets the min constraint.
+-     * This is enabled by default when paramValidation is set to true.
+-     */
+-    min?: boolean
+-    /**
+-     * Validates that a value meets the max constraint.
+-     */
+-    max?: boolean
+-    /**
+-     * Validates that a string value matches a regular expression.
+-     */
+-    pattern?: boolean
+-    /**
+-     * Validates that a string value matches one of the allowable enum values.
+-     */
+-    enum?: boolean
+-}
+-export interface RetryDelayOptions {
+-    /**
+-     * The base number of milliseconds to use in the exponential backoff for operation retries.
+-     * Defaults to 100 ms.
+-     */
+-    base?: number
+-    /**
+-     * A custom function that accepts a retry count and error and returns the amount of time to delay in milliseconds. If the result is a non-zero negative value, no further retry attempts will be made.
+-     * The base option will be ignored if this option is supplied.
+-     */
+-    customBackoff?: (retryCount: number, err?: Error) => number
+-}
+-
+ export interface APIVersions {
+     /**
+      * A string in YYYY-MM-DD format that represents the latest possible API version that can be used in all services (unless overridden by apiVersions). Specify \'latest\' to use the latest possible version.
+@@ -159,153 +43,3 @@ export interface APIVersions {
+      */
+     apiVersions?: ConfigurationServiceApiVersions;
+ }
+-
+-export abstract class ConfigurationOptions {
+-
+-    /**
+-     * Whether to compute checksums for payload bodies when the service accepts it.
+-     * Currently supported in S3 only.
+-     */
+-    computeChecksums?: boolean
+-    /**
+-     * Whether types are converted when parsing response data.
+-     */
+-    convertResponseTypes?: boolean
+-    /**
+-     * Whether to apply a clock skew correction and retry requests that fail because of an skewed client clock.
+-     */
+-    correctClockSkew?: boolean
+-    /**
+-     * Sets a custom User-Agent string.
+-     * In node environments this will set the User-Agent header, but
+-     * browser environments this will set the X-Amz-User-Agent header.
+-     */
+-    customUserAgent?: string
+-    /**
+-     * The AWS credentials to sign requests with.
+-     */
+-    credentials?: Credentials|CredentialsOptions|null
+-    /**
+-     * The provider chain used to resolve credentials if no static credentials property is set.
+-     */
+-    credentialProvider?: CredentialProviderChain
+-    /**
+-     * AWS access key ID.
+-     *
+-     * @deprecated
+-     */
+-    accessKeyId?: string
+-    /**
+-     * AWS secret access key.
+-     *
+-     * @deprecated
+-     */
+-    secretAccessKey?: string
+-    /**
+-     * AWS session token.
+-     *
+-     * @deprecated
+-     */
+-    sessionToken?: string
+-    /**
+-     * A set of options to pass to the low-level HTTP request.
+-     */
+-    httpOptions?: HTTPOptions
+-    /**
+-     * An object that responds to .write() (like a stream) or .log() (like the console object) in order to log information about requests.
+-     */
+-    logger?: Logger
+-    /**
+-     * The maximum amount of redirects to follow for a service request.
+-     */
+-    maxRedirects?: number
+-    /**
+-     * The maximum amount of retries to perform for a service request.
+-     */
+-    maxRetries?: number
+-    /**
+-     * Returns whether input parameters should be validated against the operation description before sending the request.
+-     * Defaults to true.
+-     * Pass a map to enable any of the following specific validation features: min|max|pattern|enum
+-     */
+-    paramValidation?: ParamValidation|boolean
+-    /**
+-     * The region to send service requests to.
+-     */
+-    region?: string
+-    /**
+-     * Returns A set of options to configure the retry delay on retryable errors.
+-     */
+-    retryDelayOptions?: RetryDelayOptions
+-    /**
+-     * Whether the provided endpoint addresses an individual bucket.
+-     * false if it addresses the root API endpoint.
+-     */
+-    s3BucketEndpoint?: boolean
+-    /**
+-     * Whether to disable S3 body signing when using signature version v4.
+-     */
+-    s3DisableBodySigning?: boolean
+-    /**
+-     * Whether to force path style URLs for S3 objects.
+-     */
+-    s3ForcePathStyle?: boolean
+-    /**
+-     * When region is set to 'us-east-1', whether to send s3 request to global endpoints
+-     * or 'us-east-1' regional endpoints. This config is only applicable to S3 client;
+-     * Defaults to 'legacy'
+-     */
+-    s3UsEast1RegionalEndpoint?: "regional"|"legacy"
+-    /**
+-     * Whether to override the request region with the region inferred
+-     * from requested resource's ARN. Only available for S3 buckets
+-     * Defaults to `true`
+-     */
+-    s3UseArnRegion?: boolean
+-    /**
+-     * Whether the signature to sign requests with (overriding the API configuration) is cached.
+-     */
+-    signatureCache?: boolean
+-    /**
+-     * The signature version to sign requests with (overriding the API configuration).
+-     * Possible values: 'v2'|'v3'|'v4'
+-     */
+-    signatureVersion?: "v2"|"v3"|"v4"|string
+-    /**
+-     * Whether SSL is enabled for requests.
+-     */
+-    sslEnabled?: boolean
+-    /**
+-     * An offset value in milliseconds to apply to all signing times.
+-     */
+-    systemClockOffset?: number
+-    /**
+-     * Whether to use the Accelerate endpoint with the S3 service.
+-     */
+-    useAccelerateEndpoint?: boolean
+-    /**
+-     * Whether to validate the CRC32 checksum of HTTP response bodies returned
+-     * by DynamoDB.
+-     */
+-    dynamoDbCrc32?: boolean;
+-    /**
+-     * Whether to enable endpoint discovery for operations that allow optionally using an endpoint returned by 
+-     * the service.
+-     */
+-    endpointDiscoveryEnabled?: boolean;
+-    /**
+-     * The size of the global cache storing endpoints from endpoint
+-     * discovery operations. Once endpoint cache is created, updating this setting
+-     * cannot change existing cache size.
+-     */
+-    endpointCacheSize?: number;
+-    /**
+-     * Whether to marshal request parameters to the prefix of hostname.
+-     */
+-    hostPrefixEnabled?: boolean;
+-    /**
+-     * Whether to send sts request to global endpoints or
+-     * regional endpoints. 
+-     */
+-    stsRegionalEndpoints?: "legacy"|"regional";
+-}
+diff --git a/node_modules/aws-sdk/lib/service.d.ts b/node_modules/aws-sdk/lib/service.d.ts
+index d2165e6..86018ba 100644
+--- a/node_modules/aws-sdk/lib/service.d.ts
++++ b/node_modules/aws-sdk/lib/service.d.ts
+@@ -1,6 +1,6 @@
+ import {Request} from './request';
+ import {AWSError} from './error';
+-import {ConfigurationOptions, ConfigBase} from './config';
++import {ConfigurationOptions, ConfigBase} from './config-base';
+ import {Endpoint} from './endpoint';
+ 
+ export interface WaiterConfiguration {
